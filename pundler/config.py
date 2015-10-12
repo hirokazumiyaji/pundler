@@ -28,7 +28,7 @@ class Config(object):
 
         return [
             Package(name, config)
-            for name, config in self.data[self.environment].iteritems()
+            for name, config in self.data[self.environment].items()
         ]
 
     def _check_file(self, filepath):
