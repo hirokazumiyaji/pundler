@@ -13,7 +13,7 @@ def read(*parts):
 setup(
     name='pundler',
     version='0.0.1',
-    description='',
+    description='Python Package Manager using pip',
     long_description=read('README.md'),
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -24,6 +24,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
     keywords='pip virtualenv',
@@ -31,7 +32,7 @@ setup(
     install_requires=['PyYAML'],
     author='Hirokazu Miyaji',
     author_email='hirokazu.miyaji@gmail.com',
-    url='https://github.com/HirokazuMiyaji/pundler',
+    url='https://github.com/hirokazumiyaji/pundler',
     license='MIT',
     entry_points={
         'console_scripts': [
